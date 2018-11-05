@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrabajoEstudiantes2</string>
+    <string name="app">Aplicacion Matematica Resolviendo Problemas</string>
+    <string name="created">Por Monyert</string>
+
+    <string name="nav_header_title">Proyecto Estudiantes Hilos</string>
+    <string name="nav_header_subtitle">2DAM Students</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="titulo_home">Inicio</string>
+    <string name="titulo_prime_solver">Numeros Primos</string>
+    <string name="titulo_prime_interval">Intervalo de Numeros Primos</string>
+    <string name="titulo_factorizar">Factorizar Numeros</string>
+    <string name="titulo_menu_otros">Other functions</string>
+</resources>

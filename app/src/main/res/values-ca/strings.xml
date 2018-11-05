@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TreballEstudiants2</string>
+    <string name="app">Aplicacio Matematica Resolent Problemes</string>
+    <string name="created">Per Monyert</string>
+
+    <string name="nav_header_title">Projecte Estudiants de Subprocessos</string>
+    <string name="nav_header_subtitle">2DAM Students</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="titulo_home">Inici</string>
+    <string name="titulo_prime_solver">Nombres Primers</string>
+    <string name="titulo_prime_interval">Interval de Nombres Primers</string>
+    <string name="titulo_factorizar">Factoritzar Nombres</string>
+    <string name="titulo_menu_otros">Other functions</string>
+</resources>
