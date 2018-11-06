@@ -16,4 +16,8 @@
     <string name="titulo_factorizar">Factorizing Numbers</string>
     <string name="titulo_menu_otros">Other functions</string>
     <string name="title_activity_prime_number">PrimeNumberActivity</string>
+    <string name="text_header">Write a Number</string>
+    <string name="hint_prime_number">Write here</string>
+    <string name="button_prime_number">Its a Prime Number??</string>
+    <string name="resultado">Yes or Not?</string>
 </resources>

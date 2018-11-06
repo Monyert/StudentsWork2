@@ -16,4 +16,9 @@
     <string name="titulo_prime_interval">Intervalo de Numeros Primos</string>
     <string name="titulo_factorizar">Factorizar Numeros</string>
     <string name="titulo_menu_otros">Other functions</string>
+    <string name="title_activity_prime_number">PrimeNumberActivity</string>
+    <string name="text_header">Escribe un Numero</string>
+    <string name="hint_prime_number">Escribe aqui</string>
+    <string name="button_prime_number">Es un Numero Primo??</string>
+    <string name="resultado">Si o No?</string>
 </resources>

@@ -16,4 +16,9 @@
     <string name="titulo_prime_interval">Interval de Nombres Primers</string>
     <string name="titulo_factorizar">Factoritzar Nombres</string>
     <string name="titulo_menu_otros">Other functions</string>
+    <string name="title_activity_prime_number">PrimeNumberActivity</string>
+    <string name="text_header">Escriu un Nombre</string>
+    <string name="hint_prime_number">Escriu Aci</string>
+    <string name="button_prime_number">Es un Nombre Primer??</string>
+    <string name="resultado">Si o No?</string>
 </resources>
