@@ -22,6 +22,14 @@
         <activity
             android:name=".PrimeNumberActivity"
             android:label="@string/title_activity_prime_number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IntervalPrimeNumberActivity"
+            android:label="@string/title_activity_interval_prime_number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FactorizeNumberActivity"
+            android:label="@string/title_activity_factorize_number"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

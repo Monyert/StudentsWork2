@@ -13,7 +13,7 @@ public class MainMenu extends AppCompatActivity implements NavigationView.OnNavi
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout_main);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -50,19 +50,26 @@ public class MainMenu extends AppCompatActivity implements NavigationView.OnNavi
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            Intent home = new Intent(this, MainActivity.class);
-            startActivity(home);
-        }if (id == R.id.nav_prime_solver){
-            Intent prime_number = new Intent(this, PrimeNumberActivity.class);
-            startActivity(prime_number);
-        } else if (id == R.id.nav_prime_interval) {
-
-        } else if (id == R.id.nav_factorizar) {
-
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (id == R.id.nav_prime_solver){
+            Intent intent = new Intent(this, PrimeNumberActivity.class);
+            startActivity(intent);
+        }
+
+        if (id == R.id.nav_prime_interval) {
+            Intent intent = new Intent(this, IntervalPrimeNumberActivity.class);
+            startActivity(intent);
+        }
+
+        if (id == R.id.nav_factorizar) {
+            Intent intent = new Intent(this, FactorizeNumberActivity.class);
+            startActivity(intent);
+        }
         drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 }

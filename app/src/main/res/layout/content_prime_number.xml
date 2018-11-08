@@ -46,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/hint_prime_number"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
 

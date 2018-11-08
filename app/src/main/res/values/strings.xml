@@ -20,4 +20,12 @@
     <string name="hint_prime_number">Write here</string>
     <string name="button_prime_number">Its a Prime Number??</string>
     <string name="resultado">Yes or Not?</string>
+    <string name="Interrupted_exception">AsyncTask Error</string>
+    <string name="title_activity_interval_prime_number">IntervalPrimeNumberActivity</string>
+    <string name="text_button_interval">Find Primes in Interval</string>
+    <string name="waiting_for_numbers">Waiting for Numbers</string>
+    <string name="title_activity_factorize_number">FactorizeNumberActivity</string>
+    <string name="text_enter_number_factorize">Enter a Number</string>
+    <string name="factorize_solution">Solution here ...</string>
+    <string name="button_factorize">Factorize</string>
 </resources>
